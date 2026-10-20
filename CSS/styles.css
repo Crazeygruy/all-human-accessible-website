@@ -1,0 +1,230 @@
+.Logo{
+    width: 120px;
+    height: 100px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+.welkom{
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.logo{
+    display: inline-flex;
+    width: 75px;
+    height: 75px;
+}
+
+
+.BC {
+    margin: 15px;
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+
+.veld-nieuws{
+    margin: 15px;
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.icon2{
+    width: 75px;
+    height: 75px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(136, 136, 231);
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.archive {
+  padding: 3rem 0;
+  
+}
+
+.archive-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.scroll{
+    text-align: center;
+}
+
+
+.clickthis{
+    text-align: center;
+}
+
+
+footer{
+    padding: 0 var(--page-padding) 4rem;
+}
+
+footer hr{
+    width: min(48rem, 100%);
+    margin: 0 auto;
+
+    border: none;
+    border-top: 1px solid rgb(244 244 241 / 15%);
+}
+
+.bye{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.Contact{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    gap: 100px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Contact a{
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+.Contact a svg.contact-icon {
+    width: 1em;
+    height: 1em;
+
+    margin-right: 0.4em;
+
+    vertical-align: -0.12em;
+}
+
+.Contact a:hover,
+.Contact a:focus-visible{
+    color: pink;
+
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+.carousel {
+  margin: 100px auto;
+  width: 90%;
+  overflow: scroll;
+  scrollbar-width: none;
+  
+}
+
+.carousel-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: spin 30s linear infinite;
+}
+
+.carousel:hover .carousel-track,
+.carousel:focus-within .carousel-track {
+  animation-play-state: paused;
+}
+
+
+
+.card{
+    flex: 0 0 4em;
+    width: 300px;
+    height: 300px;
+    padding: 0.5em;
+  --color-background: #080808;
+  --color-text: #f4f4f1;
+  --color-muted: #a3a3a0;
+
+  --wave-one: #6b1f2a;
+  --wave-two: #243f8f;
+  --wave-three: #5b3f72;
+    font-size: 3em;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+}
+
+.spots{
+    width: 200px;
+    height: 4em;
+    padding: 0.5em;
+    border-radius: .2em;
+    align-content: center;
+    object-fit: cover;
+    display: block;
+    border-radius: 25%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+@keyframes spin {
+  from { translate: 0; }
+  to { translate: calc(-50% - 0.75em); }
+}
+
+
+
+
+.navfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    
+}
+
+.NF{
+    width: 80px;
+    border-radius: 25%;
+}
+.NG{
+    width: 100px;
+    border-radius: 25%;
+}
+
+
+@media(min-width:500px) {
+    
+    .navfooter{
+    gap: 9em;
+
+    
+}
+.box{
+    width: 1000px;
+    height: 300px;
+   
+
+}
+
+}
+
+

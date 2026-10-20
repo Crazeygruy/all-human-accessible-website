@@ -1,0 +1,104 @@
+.Logo{
+    width: 120px;
+    height: 100px;
+}
+
+.Gast{
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-top: 20px;
+}
+
+.zoek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: large;
+}
+
+.introkaart{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h3,h4{
+    text-align: center;
+}
+.BIO{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.kaart-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.kaart {
+    width: 700px;
+    height: 700px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    margin-top: 25px;
+}
+
+.Search{
+    border-radius: 25%;
+    background-color: lightgreen;
+}
+
+.navfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    
+}
+
+.NF{
+    width: 80px;
+    border-radius: 25%;
+}
+.NG{
+    width: 100px;
+    border-radius: 25%;
+}
+
+@media(min-width:500px){
+    .navfooter{
+    gap: 9em;
+
+}
+
+.col-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5em;
+}
+
+.BIO{
+    width: 50ch;
+    margin: 0 auto;
+}
+.kaart {
+    width: 80em;
+    height: 80em;
+    transform: rotate(0deg);
+    flex-shrink: 0;
+}
+}
+
+.tb, .wd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 150px;
+    border-radius: 25%;
+}
