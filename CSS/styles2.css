@@ -1,55 +1,172 @@
-.Logo{
-    width: 120px;
-    height: 100px;
+body{
+    padding-bottom: 100px;
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(116, 158, 126);
 }
 
+.Logo{
+    width: 180px;
+    height: 125px;
+}
+
+.VeldIcoon{
+    width: 75px;
+    margin-top: 15px;
+}
 .Gast{
     width: 70px;
     height: 70px;
     float: right;
     margin-top: 20px;
+    border-radius: 15%;
 }
 
-.zoek{
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+
+
+.BC>p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    font-size: large;
+    gap: 10px;
+    font-size: 30px;
 }
+
+.Searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Searchbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+    
 
 .introkaart{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3,h4{
     text-align: center;
 }
-.BIO{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
+
 
 .kaart-container {
-    width: 100%;
     display: flex;
     justify-content: center;
     overflow: hidden;
+    
 }
 
 .kaart {
-    width: 700px;
-    height: 700px;
+    height: 900px;
+    width: 900px;
     transform: rotate(90deg);
     flex-shrink: 0;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
-.Search{
+.legenda{
+    display: flex;
+    width: 75px;
+    position: relative;
+    top: -200px;
+    border: 2px solid rgb(175, 175, 131);
     border-radius: 25%;
-    background-color: lightgreen;
+}
+
+article{
+  width: 26em;
+
+  display: grid;
+
+
+  /* transition: .5s; */
+
+   transform:
+    perspective(30em)
+    rotateY(0deg);
+
+  &.is-meer{
+     transform:
+    perspective(30em)
+    rotateY(180deg);
+  }
+  
+  button{
+    margin: 0 auto;
+  }
+
+  transform-style: preserve-3d;
+
+  @media(prefers-reduced-motion: no-preference){
+    transition: 1s;
+  }
+
+
+  /* background-color: red; */
+
+  div{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    padding: 1.5em;
+
+    backface-visibility: hidden;
+
+    border-radius: 1em;
+    border:solid 1px olive;
+  }
+
+  div:nth-of-type(1){
+    display: grid;
+    gap: 1em;
+
+    background-color: rgb(202, 196, 142);
+    
+  }
+
+  div:nth-of-type(2){
+
+
+    background-color: rgb(202, 196, 142);
+
+    rotate:y 180deg;
+    
+  }
+  
+  h2{
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.flower-card{
+    gap: 0.6em;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin: 15px;
+}
+
+button{
+    width: 65px;
+    height: 33px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navfooter{
@@ -57,7 +174,11 @@ h3,h4{
     align-items: center;
     justify-content: center;
     gap: 0.3em;
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
 }
 
 .NF{
@@ -68,7 +189,9 @@ h3,h4{
     width: 100px;
     border-radius: 25%;
 }
-
+.NF, .NG:hover{
+    background-color: aquamarine;
+}
 @media(min-width:500px){
     .navfooter{
     gap: 9em;
@@ -79,26 +202,28 @@ h3,h4{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5em;
+    margin-top: 32px;
+    padding-left: 190px;
 }
 
-.BIO{
-    width: 50ch;
-    margin: 0 auto;
-}
+
+
 .kaart {
-    width: 80em;
-    height: 80em;
+    width: 2000px;
+    height:1000px;
     transform: rotate(0deg);
     flex-shrink: 0;
 }
 }
 
-.tb, .wd{
+.tb {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 55px;
-    width: 150px;
-    border-radius: 25%;
+    margin-top: 15px;
+    margin-bottom: 100px;
 }
