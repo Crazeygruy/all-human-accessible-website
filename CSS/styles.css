@@ -8,6 +8,10 @@ header{
     background-color:  rgb(116, 158, 126);
 }
 
+main{
+    background-color: #DCE5D2;
+}
+
 .Logo{
     width: 180px;
     height: 125px;
@@ -26,7 +30,7 @@ h1{
 }
 .welkom{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     color: black;
     padding: 15px;
 }
@@ -165,7 +169,7 @@ footer hr{
     text-align: center;
     align-content: center;
     flex-shrink: 0;
-    background-color: rgb(116, 158, 126);
+    background-color: rgb(140, 189, 151);
 }
 
 .spots{
@@ -217,9 +221,6 @@ footer hr{
     border-radius: 25%;
 }
 
-.NF, .NG:hover{
-    background-color: rgb(119, 119, 89);
-}
 
 
 @media(min-width:500px) {
