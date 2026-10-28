@@ -84,11 +84,10 @@ main{
 
 .legenda{
     display: flex;
-    width: 75px;
-    position: relative;
-    top: -200px;
-    border: 2px solid rgb(175, 175, 131);
-    border-radius: 25%;
+    width: 100px;
+    margin: 15px;
+    margin-bottom: 100px;
+    border-radius: 100%;
 }
 
 article{
@@ -120,8 +119,6 @@ article{
   }
 
 
-  /* background-color: red; */
-
   div{
     grid-column-start: 1;
     grid-row-start: 1;
@@ -135,7 +132,7 @@ article{
 
   div:nth-of-type(1){
     display: grid;
-    gap: 1em;
+    gap: 0.1em;
 
     background-color: rgb(202, 196, 142);
     
@@ -157,7 +154,7 @@ article{
 }
 
 .flower-card{
-    gap: 0.6em;
+    gap: 1em;
     border-radius: 5px;
     margin-top: 32px;
     margin: 15px;
@@ -193,9 +190,7 @@ button{
     width: 100px;
     border-radius: 25%;
 }
-.NF, .NG:hover{
-    background-color: aquamarine;
-}
+
 @media(min-width:500px){
     .navfooter{
     gap: 9em;

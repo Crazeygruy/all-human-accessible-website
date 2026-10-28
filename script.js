@@ -17,3 +17,12 @@ alleKaarten.forEach(function(deCard) {
         deCard.classList.remove("is-meer");
     });
 });
+
+// functie aan uit popups
+function showPopup(id) {
+    document.getElementById(id).showModal();
+}
+
+function closePopup(id) {
+    document.getElementById(id).close();
+}

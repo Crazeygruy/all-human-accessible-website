@@ -160,21 +160,18 @@ footer hr{
 
 
 .card{
-    flex: 0 0 4em;
     width: 100%;
-    height: 300px;
-    padding: 0.5em;
+    height: 400px;
     font-size: 3em;
     border-radius: 5px;
     text-align: center;
     align-content: center;
-    flex-shrink: 0;
-    background-color: rgb(140, 189, 151);
+    background-color: rgb(182, 236, 194);
 }
 
 .spots{
-    width: 200px;
-    height: 4em;
+    width: 300px;
+    height: 6em;
     padding: 0.5em;
     border-radius: 5px;
     align-content: center;

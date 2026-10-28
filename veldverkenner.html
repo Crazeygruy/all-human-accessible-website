@@ -25,8 +25,30 @@
             <img class="kaart" src="Images/Bloemenveld_kaart.svg">
         </div>
             
-        <img class="legenda" src="Images/legenda2.png">
-        <img class="legenda" src="Images/legenda.png">
+<div class="map-buttons">
+
+    <button class="legenda" onclick="showPopup('zones-dialog')">
+        <img class="legenda" src="Images/legenda2.png" alt="Zones">
+    </button>
+
+    <button class="legenda" onclick="showPopup('uitleg-dialog')">
+        <img src="Images/legenda.png" alt="Uitleg">
+    </button>
+
+</div>
+
+<dialog id="zones-dialog">
+    <h2>Zones</h2>
+    <img src="Images/Frame294.svg" alt="Legenda">
+    <button onclick="closePopup('zones-dialog')">Terug</button>
+</dialog>
+
+<dialog id="uitleg-dialog">
+    <h2>Uitleg</h2>
+     <img src= "Images/Frame299.svg" alt="Legenda">
+   
+    <button onclick="closePopup('uitleg-dialog')">Terug</button>
+</dialog>
 
     </main>
     <hr>
@@ -50,5 +72,6 @@
         </a>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
