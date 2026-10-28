@@ -9,8 +9,8 @@ Daarom is er een duidelijke behoefte aan manieren om bewoners van Amsterdam Oost
 Ontwerp en ontwikkel een webapp met een interactieve veldverkenner waarbij bezoekers in verschillende zones van de bloementuin aan de hand van opdrachten planten en bloemen kunnen ontdekken. Bij het goed maken van de opdrachten kunnen badges worden verdiend.
 
 **Repository**
-
-- [GitHub repository](VUL-HIER-JE-REPOSITORY-LINK-IN)
+[
+(https://github.com/Crazeygruy/all-human-accessible-website)
 
 **Live website**
 
@@ -21,6 +21,7 @@ Ontwerp en ontwikkel een webapp met een interactieve veldverkenner waarbij bezoe
 - [Beschrijving](#beschrijving)
 - [Huisstijl](#huisstijl)
 - [Veldverkenner](#veldverkenner)
+- QR code
 
 ## Beschrijving
 
@@ -36,19 +37,20 @@ Voor de opdrachtgever maken wij een website die eigenlijk een webapp is. Het is 
 
 ## Homepage
 
-Op de homepagina heeft de bezoeker een overzicht van alle pagina's die te vinden zijn op de webapp. Daarnaast is er een knop die naar de interactieve veldverkenner linkt en worden de laatste drie nieuwsberichten in een carrousel getoond.
+Op de homepagina heeft de bezoeker een overzicht van alle pagina's die te vinden zijn op de webapp. Daarnaast is er een knop die naar de interactieve veldverkenner linkt en worden de laatste drie nieuwsberichten in een carrousel getoond. Je kan dus gelijk naar de map en het maakt de map heel makkelijk te vinden ook voor ouderen. 
 
 **Hifi-schets**
 
-[VUL-HIER-DE-LINK-NAAR-DE-HOMEPAGINA-SCHETS-IN]
+https://www.figma.com/design/hLoltek8flVv2ETDEie6nE/Figma-Schetsen-van-Bloemenveld-Frankendael?node-id=0-1&p=f&t=zzOIMXeOsvlRgtm9-0
 
 **Breakdown-schets**
+<img width="2000" height="2000" alt="unnamed (1)" src="https://github.com/user-attachments/assets/914cee58-a3b8-4552-9aeb-50920bdae10c" />
 
-[VUL-HIER-DE-LINK-NAAR-DE-BREAKDOWN-SCHETS-IN]
 
 ## Veldverkenner
 
 Op de veldverkennerpagina ziet de bezoeker welke activiteiten er te doen zijn op het bloemenveld. Daarnaast kan de bezoeker bij elk voedseleiland ontdekken welke bloemen er groeien en wat ermee gedaan kan worden.
+
 
 ## Nieuws
 
