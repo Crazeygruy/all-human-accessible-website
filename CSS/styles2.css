@@ -196,6 +196,18 @@ button{
     border-radius: 25%;
 }
 
+.tb {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
 @media(min-width:500px){
     .navfooter{
     gap: 9em;
@@ -210,17 +222,18 @@ button{
     padding-left: 190px;
 }
 
+.kaart-container{
+width: 1000px;
+height: 800px;
+margin: 0 auto;
+max-width: 1000px;
+width: 100%;
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+}
 
 }
 
-.tb {
-    width: 350px;
-    height: 350px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 100px;
-}

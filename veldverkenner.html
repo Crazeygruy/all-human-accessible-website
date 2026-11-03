@@ -7,74 +7,97 @@
     <link rel="stylesheet" href="CSS/styles2.css">
 </head>
 <body>
+
+    <!-- Header containing the website logo and guest icon -->
     <header>
 
-        <img class="Logo"  src="Images/LOGO2-removebg-preview.png">
-        <img class="Gast" src="Images/Gast.png">
+        <img class="Logo" src="Images/LOGO2-removebg-preview.png" alt="Logo">
+        <img class="Gast" src="Images/Gast.png" alt="Gast">
 
     </header>
-    <main>
-        <img class="VeldIcoon" src="Images/Vector.png">
 
-        <div class="introkaart">
+    <!-- Main content of the field explorer page -->
+    <main>
+
+        <!-- Icon representing the field explorer -->
+        <img class="VeldIcoon" src="Images/Vector.png" alt="">
+
+        <!-- Introduction to the field explorer -->
+        <section class="introkaart">
             <h1>Veldverkenner</h1>
             <p>Scroll, klik en ontdenk!</p>
-        </div>
+        </section>
 
-        <div class="kaart-container">
-            <iframe title ="OpenStreetMap - Park Frankendael"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=4.9275%2C52.3505%2C4.9335%2C52.3535&layer=mapnik&marker=52.351960%2C4.930549"
-            loading="lazy" allowfullscreen>
+        <!-- Interactive OpenStreetMap displaying Park Frankendael -->
+        <section class="kaart-container">
+            <iframe title="OpenStreetMap - Park Frankendael"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=4.9275%2C52.3505%2C4.9335%2C52.3535&layer=mapnik&marker=52.351960%2C4.930549"
+                loading="lazy" allowfullscreen>
             </iframe>
+        </section>
+
+        <!-- Buttons that open the zones and explanation popups -->
+        <div class="map-buttons">
+
+            <!-- Button to display the map zones -->
+            <button class="legenda1" onclick="showPopup('zones-dialog')">
+                <img class="legenda" src="Images/legenda.png" alt="Zones">
+            </button>
+
+            <!-- Button to display the map explanation -->
+            <button class="legenda1" onclick="showPopup('uitleg-dialog')">
+                <img class="legenda" src="Images/legenda2.png" alt="Uitleg">
+            </button>
+
         </div>
-            
-<div class="map-buttons">
 
-    <button class="legenda1" onclick="showPopup('zones-dialog')">
-        <img class="legenda" src="Images/legenda.png" alt="Zones">
-    </button>
+        <!-- Dialog displaying information about the different zones -->
+        <dialog id="zones-dialog">
+            <h2>Zones</h2>
+            <img src="Images/Frame294.svg" alt="Legenda">
+            <button onclick="closePopup('zones-dialog')">Terug</button>
+        </dialog>
 
-    <button class="legenda1" onclick="showPopup('uitleg-dialog')">
-        <img class="legenda" src="Images/legenda2.png" alt="Uitleg">
-    </button>
+        <!-- Dialog explaining how to use the field explorer -->
+        <dialog id="uitleg-dialog">
+            <h2>Uitleg</h2>
+            <img src="Images/Frame299.svg" alt="Legenda">
 
-</div>
-
-<dialog id="zones-dialog">
-    <h2>Zones</h2>
-    <img src="Images/Frame294.svg" alt="Legenda">
-    <button onclick="closePopup('zones-dialog')">Terug</button>
-</dialog>
-
-<dialog id="uitleg-dialog">
-    <h2>Uitleg</h2>
-     <img src= "Images/Frame299.svg" alt="Legenda">
-   
-    <button onclick="closePopup('uitleg-dialog')">Terug</button>
-</dialog>
+            <button onclick="closePopup('uitleg-dialog')">Terug</button>
+        </dialog>
 
     </main>
+
+    <!-- Horizontal divider between the main content and footer -->
     <hr>
 
+    <!-- Footer containing the main navigation links -->
     <footer class="navfooter">
 
+        <!-- Navigation link to the homepage -->
         <a href="index.html" class="nav item">
-            <img class="NF" src="Images/Home.PNG">
+            <img class="NF" src="Images/Home.PNG" alt="Home">
         </a>
 
+        <!-- Navigation link to the field explorer -->
         <a href="veldverkenner.html" class="nav item">
-            <img class="NG" src="Images/Veldverkenner.PNG">
+            <img class="NG" src="Images/Veldverkenner.PNG" alt="Veldverkenner">
         </a>
 
+        <!-- Navigation link to the news page -->
         <a href="" class="nav item">
-            <img class="NF" src="Images/news.PNG">
+            <img class="NF" src="Images/news.PNG" alt="Nieuws">
         </a>
 
+        <!-- Navigation link to the collection page -->
         <a href="collectie.html" class="nav item">
-            <img class="NF" src="Images/collectie.PNG">
+            <img class="NF" src="Images/collectie.PNG" alt="Collectie">
         </a>
 
     </footer>
+
+    <!-- JavaScript file controlling the popup functionality -->
     <script src="script.js"></script>
+
 </body>
 </html>
