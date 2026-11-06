@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veldverkenner</title>
     <link rel="stylesheet" href="CSS/styles2.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
 </head>
 <body>
 
@@ -29,12 +31,7 @@
         </section>
 
         <!-- Interactive OpenStreetMap displaying Park Frankendael -->
-        <section class="kaart-container">
-            <iframe title="OpenStreetMap - Park Frankendael"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=4.9275%2C52.3505%2C4.9335%2C52.3535&layer=mapnik&marker=52.351960%2C4.930549"
-                loading="lazy" allowfullscreen>
-            </iframe>
-        </section>
+        <div id ="map"></div>
 
         <!-- Buttons that open the zones and explanation popups -->
         <div class="map-buttons">
@@ -97,7 +94,9 @@
     </footer>
 
     <!-- JavaScript file controlling the popup functionality -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="script.js"></script>
+    
 
 </body>
 </html>
