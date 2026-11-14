@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/styles2.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
-</head>
+
 <body>
 
     <!-- Header containing the website logo and guest icon -->
@@ -31,20 +31,21 @@
         </section>
 
         <!-- Interactive OpenStreetMap displaying Park Frankendael -->
-        <div id ="map"></div>
+        <div id ="map">
 
-        <!-- Buttons that open the zones and explanation popups -->
-        <div class="map-buttons">
+            <!-- Buttons that open the zones and explanation popups -->
+          <div class="map-buttons">
 
-            <!-- Button to display the map zones -->
+            
             <button class="legenda1" onclick="showPopup('zones-dialog')">
                 <img class="legenda" src="Images/legenda.png" alt="Zones">
             </button>
 
-            <!-- Button to display the map explanation -->
+           
             <button class="legenda1" onclick="showPopup('uitleg-dialog')">
                 <img class="legenda" src="Images/legenda2.png" alt="Uitleg">
             </button>
+          </div>
 
         </div>
 
